@@ -4,47 +4,59 @@
   color: #333;
   font-family: "Lato", sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header img {
   width: 100%;
 }
+
 .header__link {
   font-family: "Fantasy", cursive;
 }
 
 @media (max-width:768px) {
+
 .header {
   text-align: center;
+ }
+
 }
-}
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-list__label,.task-list__input,.add-body__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .add-body__wrapper {
   display: flex;
 }
+
 .task-list {
   margin:0;
   padding: 0px;
 }
+
 .task-list__item,.add-body__header,.to-do-body__header,.completed-body__header {
   list-style:none;
 }
+
 .add-body__input,.task-list__input,.add-body__button,.task-list__edit-button,.task-list__delete-button{
   outline:none;
 }
+
 .add-body__button,.task-list__edit-button,.task-list__delete-button{
   background: none;
   border: 0px;
@@ -54,9 +66,11 @@
   font-family: "Lato", sans-serif;
   cursor: pointer;
 }
+
 .add-body__button:hover,.task-list__edit-button:hover,.task-list__delete-button:hover {
     color: #3a3a3a;
 }
+
 /* Heading */
 .add-body__header,.to-do-body__header,.completed-body__header {
   color: #333;
@@ -67,6 +81,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-list__input,.add-body__input {
   margin: 0;
   font-size: 18px;
@@ -79,6 +94,7 @@
   font-family: "Lato", sans-serif;
   color: #888;
 }
+
 .add-body__input:focus,.task-list__input:focus {
   color: #333;
 }
@@ -88,6 +104,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .add-body__input {
   width: 318px;
 }
@@ -102,23 +119,28 @@
   align-items: center;
   vertical-align: middle;
 }
+
 .task-list__item > .task-list__checkbox {
   margin: 0 10px;
 }
+
 .task-list__item > .task-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-list__item > .task-list__input {
   width: 226px
 }
+
 .delete-button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-button__img:hover {
   transform: rotateZ(0);
 }
