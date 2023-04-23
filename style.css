@@ -61,13 +61,13 @@
 .task-list__input,
 .add-body__button,
 .task-list__edit-button,
-.task-list__delete-button{
+.task-list__delete-button {
   outline: none;
 }
 
 .add-body__button,
 .task-list__edit-button,
-.task-list__delete-button{
+.task-list__delete-button {
   background: none;
   border: 0px;
   color: #888;
